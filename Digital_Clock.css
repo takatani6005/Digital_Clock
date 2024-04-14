@@ -1,0 +1,58 @@
+
+
+@font-face{
+    font-family: "FX_LED";
+    src: url("./FX-LED\ Bold.TTF");
+    
+}
+@font-face{
+    font-family: "Hack";
+    src: url("./Hack-Bold.ttf");
+}
+
+.digital{
+    max-width: 13.5rem;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    border-radius: 2rem;
+    border-width: 1rem;
+    user-select: none;
+    padding: 0 5rem  ;
+    margin: 5rem ;
+    border:  0.48rem solid #2d2d2d;
+    
+    
+}
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    color:#2d2d2d;
+    font-weight:  bold;
+    font-family: "Hack";
+}
+.week .active{
+    color: white;
+    font-size: 1.5rem;
+}
+.time{
+    font-family: "FX_LED";
+    font-size: 4rem;
+    display: flex;
+    padding: 4rem;
+}
+.hour,
+.min,
+.dot{
+    display: inline-block ;
+    font-size: 15 rem;
+}
+.min{
+    display: math;
+}
+.invsible{
+    visibility: hidden;
+}
